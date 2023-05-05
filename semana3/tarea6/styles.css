@@ -1,0 +1,150 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Colores */
+:root {
+  --sap-primary: #107e3e;
+  --sap-secondary: #4d4d4d;
+  --sap-accent: #f6c327;
+  --sap-background: #f7f7f7;
+}
+.form-label {
+  color: var(--sap-primary);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+/* Sombreados para transparencia */
+.shadow-light {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-medium {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de la página */
+body {
+  background-color: var(--sap-background);
+  color: var(--sap-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--sap-primary);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background-color: var(--sap-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: var(--sap-secondary);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  border: 1px solid var(--sap-secondary);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--sap-accent);
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 32px;
+  margin: 32px;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: var(--sap-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--sap-secondary);
+}
+
+.btn-secondary {
+  background-color: var(--sap-secondary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.form-input {
+  border: 1px solid var(--sap-secondary);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+
+.btn-secondary:hover {
+  background-color: var(--sap-primary);
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h1 {
+  margin-bottom: 16px;
+}
+.form-span {
+  font-size: 24px;
+  line-height: 1.5;
+}
